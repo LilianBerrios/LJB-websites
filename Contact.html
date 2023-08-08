@@ -1,12 +1,144 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>The Kitchen</title>
+    <meta data="blah blah blah">
 
-<Head>
-    <title>Contact Page</title>
-    <meta name="blah blah blah"
-</Head>
-<body>
+        <style>
+            p {
+                color: white;
+                text-align: center;
+                font-size: 35px; 
+           }
 
+           li {
+            display: inline;
+            font-size: 25px;
+            margin-inline: 15px;
+            text-align: center;
+       }
+
+       nav {
+        text-align:center;
+        border: 4px solid black;
+        background-size: 50%;
+        background-image: url(https://garden.spoonflower.com/c/9506797/p/f/m/48wmJfl1PHr0HgelnwzOlj7ELYrmyV_I1_8qQ-nIaloKXhdyI0Q/Plain%20Solid%20Dark%20Gray.jpg);
+        position: sticky;
+        top: 0;
+       }
+
+       ul > li > a {
+        color: white;
+       }
+
+       h2 {
+        font-size: 40px;
+       }
+
+       .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.logo-list-item {
+    padding: 2px; 
+    border-radius: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.logo-text {
+    margin-top: auto; 
+    color: white; 
+    margin-bottom: auto;
+}
+           </style>
+       </head>
+
+    <nav>
+        <div class="logo">
+            <p>The Latino Kitchen</p>
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Meals.html">MEALS</a></li>
+            <li><a href="Desserts.html">DESSERTS</a></li>
+            <li><a href="Drinks.html">DRINKS</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+ <body bgcolor="#FFFFFF">
+
+<h2><center>Contact Me</center></h2>
+
+<h2>Social Media:</h2>
+
+<!-- Add font awesome icons -->
+<ul style="display: grid; grid-template-columns: auto auto auto auto auto; max-width: 500px;">
+        <li class="logo-list-item" style="background-color: Red">
+            <a href="https://www.youtube.com">
+                <img alt="Youtube Logo" width="64" height="64"
+                    src="https://image.similarpng.com/very-thumbnail/2020/07/Youtube-logo-vector-PNG.png" />
+            </a>
+                <span class="logo-text">Youtube</span>
+        </li>
+
+        <li class="logo-list-item" style="background-color: #125688">
+            <a target="_blank" href="https://instagram.com/_thelatinkitchen?igshid=OGQ5ZDc2ODk2ZA=="
+                class="fa fa-instagram">
+            <img alt="Instagram Logo" width="64" height="64"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz52LdVE-9fwK49ymKUKmYjbqDiyCi4o-rIQ&usqp=CAU"/>
+            </a>
+                <span class="logo-text">Instagram</span>
+        </li>
+
+        <li class="logo-list-item" style="background-color: black">
+            <a href="https://www.pinterest.com">
+                <img alt="Pinterest Logo" width="64" height="64"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShi2v5BAvBjA_AAe27sNdh1DU2PcqUTuAEFA&usqp=CAU"/>
+            </a>
+                    <span class="logo-text">Pinterest</span>
+        </li>
+
+        <li class="logo-list-item" style="background-color: #125688">
+            <a href="https://venmo.com">
+                <img alt="Venmo Logo" width="64" height="64"
+                    src="data:image/png;base64,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"/>
+            </a>
+                    <span class="logo-text">Venmo</span>
+        </li>
+</ul>
 
 </body>
 </html>
